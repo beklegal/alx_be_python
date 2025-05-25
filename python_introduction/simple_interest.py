@@ -1,10 +1,11 @@
-# Assign given values to variables
-principal = 1000       # Principal amount in dollars
-rate = 0.05            # Interest rate as decimal (5%)
-time = 3               # Time in years
+# Define the variables
+principal = 1000      # principal amount in dollars
+rate = 0.05           # annual interest rate as a decimal (5%)
+time = 3              # time in years
 
 # Calculate simple interest
 interest = principal * rate * time
 
-# Print the result in the required format
-print(f"The simple interest is: {interest}")
+# Print the result
+print("The simple interest is:", interest)
+
